@@ -13,8 +13,9 @@ const cors = require("cors");
 const User = require("./user");
 
 
-app.post("/hi", (req,res)=>{
+app.post("/signup", (req,res)=>{
     res.send("hello from server");
+    
 });
 
 app.listen(PORT,()=>{
